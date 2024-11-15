@@ -68,7 +68,7 @@ module txController (
                 default: begin
                     r_state<=IDLE;
                 end
-
+            endcase
         end
     end
     
