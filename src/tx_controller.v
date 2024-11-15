@@ -27,7 +27,7 @@ module txController (
             r_tx_data <= 1'b1;
         end
         else begin
-            case(state)
+            case(r_state)
                 IDLE: begin
                     bit_index<=3'b0;
                     r_tx_done<=1'b0;
