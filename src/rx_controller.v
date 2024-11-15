@@ -1,4 +1,4 @@
-module rx_controller #(parameter OVERSAMPLE = 8)(
+module rxController #(parameter OVERSAMPLE = 8)(
     input wire clk,
     input wire reset,
     input wire i_rx_data,
